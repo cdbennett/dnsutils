@@ -1,4 +1,4 @@
-FROM debian:11.6-slim
+FROM debian:12.10-slim
 RUN export DEBIAN_FRONTEND=noninteractive && \
  apt-get update && \
  apt-get -y install --no-install-recommends dnsutils && \
